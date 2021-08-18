@@ -1,0 +1,74 @@
+html{
+	font-family: Calibri;
+}
+#layout{
+    background-color: #dbe1dd;
+}
+#image{
+    width: 250px;
+	height: 150px;
+    position: relative;
+    top: 55px;
+}
+#stay{
+    font-size: 58px;
+    position: relative;
+    top: 45px;
+}
+#placeholders img{
+    height: 150px;
+    width: 150px;
+}
+#placeholders p span::after{
+        content: "\a";
+        white-space: pre;
+}
+#fashionimg img{
+    height: 150px;
+    width: 150px;
+}
+#place div,#place1 div{
+    background-color: #dbf3fa;
+}
+.place div,.place1 div{
+	background-color: #dbf3fa;
+}
+#brands{
+	font-size: 17px;
+}
+#brands span:after {
+    content: " | ";
+}
+#brands::after{
+    content: "\a";
+    white-space: pre;
+}
+#brands span:last-child:after {
+  content: '';
+}
+#footer{
+    background-color: black;
+}
+@media (max-width: 767.98px) {
+    #fashions li{
+        display: none;
+    }
+    #searchbar{
+        display: none;
+    }
+    #image{
+        display: none;
+    }
+    #stay{
+        font-size: 68px;
+    }
+    #details p{
+        margin-left: 95px ;
+ 
+    }
+}
+@media (min-width: 768px) {
+    #list li,h3{
+        display: none;
+    }
+}
